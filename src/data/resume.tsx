@@ -155,19 +155,12 @@ export const DATA = {
         "HTML",
         "CSS",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "/jasa-rental-mobil",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
       image: "/default.png",
       video: "",
     },
     {
       title: "Website Arxist.id",
-      href: "/website-arxist-id",
+      href: "arxist.id",
       dates: "2022",
       active: false,
       description:
@@ -181,7 +174,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "/arxist.com",
+          href: "arxist.id",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -189,12 +182,34 @@ export const DATA = {
       video: "",
     },
     {
-      title: "SIMASET Website SMK Telkom Jakarta",
-      href: "/simaset-smk-telkom",
+      title: "Unit Produksi Website SMK Telkom Jakarta",
+      href: "https://smktelkom-jkt.sch.id/",
       dates: "2022",
       active: false,
       description:
-        "Pengembangan dan peningkatan sistem administrasi sekolah dengan CodeIgniter dan Laravel Livewire.",
+        "Pengembangan dan peningkatan sistem administrasi unit produksi dengan Laravel Livewire.",
+      technologies: [
+        "Laravel",
+        "PHP",
+        "MySQL",,
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://smktelkom-jkt.sch.id/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/default.png",
+      video: "",
+    },
+    {
+      title: "SIMASET Website SMK Telkom Jakarta",
+      href: "https://smktelkom-jkt.sch.id/",
+      dates: "2022",
+      active: false,
+      description:
+        "Pengembangan dan peningkatan sistem administrasi sekolah dengan CodeIgniter",
       technologies: [
         "CodeIgniter",
         "PHP",
@@ -203,7 +218,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "/simaset-smk-telkom",
+          href: "https://smktelkom-jkt.sch.id/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -212,7 +227,7 @@ export const DATA = {
     },
     {
       title: "Website Profil SLBN 11 Jakarta Selatan",
-      href: "/profil-slbn-11",
+      href: "https://slbn11jkt.sch.id/",
       dates: "2023",
       active: false,
       description: "Website profil sekolah dibangun menggunakan WordPress.",
@@ -225,7 +240,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "/profil-slbn-11",
+          href: "https://slbn11jkt.sch.id/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -245,13 +260,6 @@ export const DATA = {
         "HTML",
         "Folium",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "/aplikasi-antisipasi-tsunami",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
       image: "/aplikasi-antisipasi-tsunami.png",
       video: "",
     },
@@ -268,13 +276,6 @@ export const DATA = {
         "Tailwind CSS",
         "PostgreSQL",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "/company-profile-kedai-es-krim",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
       image: "/company-profile-kedai-es-krim.png",
       video: "",
     },
@@ -286,24 +287,14 @@ export const DATA = {
       description:
         "Platform jual beli dan edukasi barang daur ulang menggunakan Laravel, Vue.js, AI, dan Tailwind CSS.",
       technologies: [
-        "Laravel",
-        "Vue.js",
-        "AI",
-        "Tailwind CSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "/lingkar-hijau-marketplace",
-          icon: <Icons.globe className="size-3" />,
-        },
+        "Figma",
       ],
       image: "/lingkar-hijau-marketplace.png",
       video: "",
     },
     {
       title: "FishCo - Deteksi Penyakit Ikan Hias & Manajemen Akuarium",
-      href: "/fishco-deteksi-penyakit",
+      href: "https://fishco.miauwlan.com/",
       dates: "2025",
       active: true,
       description:
@@ -317,7 +308,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "/fishco-deteksi-penyakit",
+          href: "https://fishco.miauwlan.com/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -326,7 +317,7 @@ export const DATA = {
     },
     {
       title: "Marketplace Rajulang",
-      href: "/marketplace-rajulang",
+      href: "https://mirfan777.github.io/rajulang/",
       dates: "2025",
       active: true,
       description: "Marketplace tukar poin pakaian bekas berbasis Svelte.",
@@ -338,7 +329,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "/marketplace-rajulang",
+          href: "https://mirfan777.github.io/rajulang/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -351,16 +342,14 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "Aplikasi edukasi baca bibir dengan materi video dan latihan berbasis AI dan video processing (ide awal).",
+        "Aplikasi edukasi baca bibir dengan materi video dan latihan berbasis AI dan video processing (prototype).",
       technologies: [
-        "AI",
-        "Video Processing",
-        "Mobile Development",
+        "Figma"
       ],
       links: [
         {
-          type: "Website",
-          href: "/hening-edukasi-baca-bibir",
+          type: "prototype",
+          href: "https://www.figma.com/proto/ArDjCzG3ElTVqAiBbxWAU8/Hening?node-id=213-494&t=YPfBscR4aNv1LGfv-1",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -402,13 +391,6 @@ export const DATA = {
         "Filament",
         "API Integration",
         "PHP",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "/si-kafa-pos",
-          icon: <Icons.globe className="size-3" />,
-        },
       ],
       image: "/si-kafa-pos.png",
       video: "",
