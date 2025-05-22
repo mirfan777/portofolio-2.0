@@ -285,7 +285,7 @@ export const DATA = {
       dates: "2024",
       active: true,
       description:
-        "Platform jual beli dan edukasi barang daur ulang menggunakan Laravel, Vue.js, AI, dan Tailwind CSS.",
+        "Platform jual beli dan edukasi barang daur ulang (prototype figma).",
       technologies: [
         "Figma",
       ],
@@ -338,7 +338,7 @@ export const DATA = {
     },
     {
       title: "Hening - Aplikasi Edukasi Baca Bibir untuk Tuli",
-      href: "/hening-edukasi-baca-bibir",
+      href: "https://www.figma.com/proto/ArDjCzG3ElTVqAiBbxWAU8/Hening?node-id=213-494&t=YPfBscR4aNv1LGfv-1",
       dates: "2025",
       active: true,
       description:
@@ -372,7 +372,7 @@ export const DATA = {
       links: [
         {
           type: "Youtube",
-          href: "/https://youtu.be/0OX0uS7YOgQ",
+          href: "https://youtu.be/0OX0uS7YOgQ",
           icon: <Icons.globe className="size-3" />,
         },
       ],
