@@ -160,7 +160,7 @@ export const DATA = {
     },
     {
       title: "Website Arxist.id",
-      href: "arxist.id",
+      href: "https://arxist.id/",
       dates: "2022",
       active: false,
       description:
@@ -174,7 +174,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "arxist.id",
+          href: "https://arxist.id/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
