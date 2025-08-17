@@ -11,7 +11,7 @@ export const DATA = {
     "Seorang pengembang perangkat lunak yang bersemangat dalam membangun solusi digital berdampak. Saya suka menciptakan sistem yang tidak hanya berfungsi dengan baik, tetapi juga memberikan pengalaman yang menyenangkan bagi penggunanya.",
   summary:
     "Saya adalah pengembang perangkat lunak yang memiliki minat besar dalam pengembangan web dan aplikasi mobile. Dengan latar belakang pengalaman di berbagai proyek dan organisasi, saya terbiasa bekerja dalam tim dan mengelola solusi dari tahap perencanaan hingga implementasi. Saya senang mengeksplorasi teknologi baru dan memanfaatkannya untuk menciptakan produk yang bermanfaat.",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/profile.jpeg",
   skills: [
     "PHP",
     "Laravel",
