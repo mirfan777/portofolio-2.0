@@ -338,7 +338,7 @@ export const DATA = {
     },
     {
       title: "Hening - Aplikasi Edukasi Baca Bibir untuk Tuli",
-      href: "https://www.figma.com/proto/ArDjCzG3ElTVqAiBbxWAU8/Hening?node-id=213-494&t=YPfBscR4aNv1LGfv-1",
+      href: "https://www.figma.com/proto/ArDjCzG3ElTVqAiBbxWAU8/Hening?node-id=171-235&p=f&t=6VW5JyY1DGuHBsru-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=171%3A235&show-proto-sidebar=1",
       dates: "2025",
       active: true,
       description:
@@ -368,13 +368,6 @@ export const DATA = {
         "AR Foundation",
         "C#",
         "AR",
-      ],
-      links: [
-        {
-          type: "Youtube",
-          href: "https://youtu.be/0OX0uS7YOgQ",
-          icon: <Icons.globe className="size-3" />,
-        },
       ],
       image: "",
       video: "/AR_Logic_Cards.mp4",
