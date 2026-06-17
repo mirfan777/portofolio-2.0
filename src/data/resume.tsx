@@ -8,15 +8,17 @@ export const DATA = {
   location: "Jakarta, Indonesia",
   locationLink: "https://www.google.com/maps/place/jakarta",
   description:
-    "Seorang pengembang perangkat lunak yang bersemangat dalam membangun solusi digital berdampak. Saya suka menciptakan sistem yang tidak hanya berfungsi dengan baik, tetapi juga memberikan pengalaman yang menyenangkan bagi penggunanya.",
+    "A passionate software developer committed to building impactful digital solutions. I love creating systems that not only work well but also deliver a delightful user experience.",
   summary:
-    "Saya adalah pengembang perangkat lunak yang memiliki minat besar dalam pengembangan web dan aplikasi mobile. Dengan latar belakang pengalaman di berbagai proyek dan organisasi, saya terbiasa bekerja dalam tim dan mengelola solusi dari tahap perencanaan hingga implementasi. Saya senang mengeksplorasi teknologi baru dan memanfaatkannya untuk menciptakan produk yang bermanfaat.",
+    "I am a software developer with a strong interest in web development and mobile applications. With experience across various projects and organizations, I am comfortable working in teams and managing solutions from planning to implementation. I enjoy exploring new technologies and leveraging them to create valuable products.",
   avatarUrl: "/profile.jpeg",
   skills: [
     "PHP",
     "Laravel",
     "JavaScript",
-    "Vue.js",
+    "TypeScript",
+    "Next.js",
+    "Flutter",
     "Angular",
     "Java",
     "Python",
@@ -35,6 +37,12 @@ export const DATA = {
     email: "emailkamu@example.com",
     tel: "+628123456789",
     social: {
+      Resume: {
+        name: "Resume",
+        url: "/resume.pdf",
+        icon: NotebookIcon,
+        navbar: true,
+      },
       GitHub: {
         name: "GitHub",
         url: "https://github.com/mirfan777",
@@ -43,13 +51,13 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/meowlana-irfan/",
+        url: "https://www.linkedin.com/in/maulana-irfan-id",
         icon: Icons.linkedin,
         navbar: true,
       },
       Instagram: {
         name: "Instagram",
-        url: "https://www.instagram.com/maw_lana08/",
+        url: "https://www.instagram.com/mawlana1308/",
         icon: Icons.Instagram,
         navbar: true,
       },
@@ -83,16 +91,16 @@ export const DATA = {
   // Mengubah workExperience menjadi work sesuai struktur data kedua
   work: [
     {
-      company: "CV. Kreatorku",
-      href: "https://kreatorku.com",
+      company: "Kodehana",
+      href: "https://kodehana.com",
       badges: [],
-      location: "Jakarta, Indonesia",
-      title: "Internship Developer",
-      logoUrl: "/kreatorku.png",
-      start: "Februari 2022",
-      end: "Juli 2022",
+      location: "Bogor, Indonesia",
+      title: "FullStack Developer",
+      logoUrl: "/kodehana.png",
+      start: "Oktober 2025",
+      end: "Present",
       description:
-        "Mengembangkan fitur Q&A dan landing page dengan Angular, membangun bot Discord dengan Adonis.js, serta mengimplementasikan desain dari Figma.",
+        "Led a 5-member development team to architect and deliver custom software solutions, including medical information systems and e-commerce platforms. Designed core database schemas and engineered data integration pipelines across 3 major projects utilizing Laravel. Executed end-to-end development to deployment processes.",
     },
     {
       company: "Unit Produksi SMK Telkom Jakarta",
@@ -101,70 +109,64 @@ export const DATA = {
       location: "Jakarta, Indonesia",
       title: "Web Developer",
       logoUrl: "/smktelkom.png",
-      start: "September 2022",
+      start: "November 2022",
       end: "Juli 2023",
       description:
-        "Mengembangkan sistem administrasi sekolah menggunakan Laravel, Tailwind CSS, dan CodeIgniter. Membuat website profil SLB Negeri 11 dengan WordPress.",
+        "Developed an internal business web application using Laravel Livewire to automate tracking and streamline workflows. Deployed a WordPress site for SLBN 11 Jakarta and trained staff members for smooth adoption and maintenance.",
     },
     {
-      company: "MicroIT IPB University",
-      href: "https://ipb.ac.id",
+      company: "CV Kreatorku Indonesia",
+      href: "https://kreatorku.com",
       badges: [],
-      location: "Bogor, Indonesia",
-      title: "Webmaster",
-      logoUrl: "/ipb.png",
-      start: "Januari 2024",
-      end: "Present",
+      location: "Tangerang, Indonesia",
+      title: "Frontend Developer",
+      logoUrl: "/kreatorku.png",
+      start: "Februari 2022",
+      end: "Juli 2022",
       description:
-        "Memperdalam React dan pengembangan web, serta menjadi staf logistik dalam program company visit.",
+        "Developed frontend features for Arxist platform using Angular, including Q&A modules and stream overlays. Built responsive landing pages with Angular and Tailwind CSS for pixel-perfect designs. Engineered a Discord bot using Discord.js.",
     },
   ],
   
   // Mengubah struktur education sesuai dengan data kedua
   education: [
     {
-      school: "SMK Telkom Jakarta",
-      href: "https://smktelkom-jkt.sch.id",
-      degree: "Rekayasa Perangkat Lunak",
-      logoUrl: "/smktelkom.png",
-      start: "2020",
-      end: "2023",
-    },
-    {
       school: "IPB University - Fakultas Vokasi",
       href: "https://ipb.ac.id",
       degree: "Teknologi Rekayasa Perangkat Lunak",
+      list : [
+        `Academic Achievement: Awarded "Best AR Project" for excellence in Virtual and Augmented Reality technology.`,
+        `Publication: Author of "Pengembangan Aplikasi Berbasis Kecerdasan Buatan untuk Diagnostik Penyakit dan Optimalisasi Ekosistem Akuarium" (2026).`,
+        `Copyright: Co-holder of HAKI registration from Kemenkumham for the Mauna software system (2026).`,
+        `Competitions: Competed in 10+ national-level tech and business competitions, securing 4 major wins/finalist positions.`
+      ],
       logoUrl: "/ipb.png",
       start: "2023",
       end: "Present",
+    },
+    {
+      school: "SMK Telkom Jakarta",
+      href: "https://smktelkom-jkt.sch.id",
+      degree: "Rekayasa Perangkat Lunak",
+      list : [
+        `Certification: Certified Professional in Software Development (National Competency Certification / BNSP).`,
+        `Extracurricular/Experience: Served as a Web Developer for the school's Unit Produksi, developing and delivering professional-grade digital solutions.`,
+      ],
+      logoUrl: "/smktelkom.png",
+      start: "2020",
+      end: "2023",
     },
   ],
   
   // Mengubah struktur projects agar sesuai dengan data kedua
   projects: [
     {
-      title: "Jasa Rental Mobil",
-      href: "/jasa-rental-mobil",
-      dates: "2021",
-      active: false,
-      description:
-        "Platform rental mobil menggunakan PHP dan MySQL untuk mengelola data kendaraan dan peminjaman.",
-      technologies: [
-        "PHP",
-        "MySQL",
-        "HTML",
-        "CSS",
-      ],
-      image: "/default.png",
-      video: "",
-    },
-    {
       title: "Website Arxist.id",
       href: "https://arxist.id/",
       dates: "2022",
       active: false,
       description:
-        "Platform monetisasi kreator dan agensi dengan kontribusi slicing UI, stream alert dengan Angular & TypeScript, serta pembuatan Discord bot dengan Discord.js & Adonis.js.",
+        "Creator and agency monetization platform with UI slicing contributions, stream alerts with Angular & TypeScript, and Discord bot development using Discord.js & Adonis.js.",
       technologies: [
         "Angular",
         "TypeScript",
@@ -182,12 +184,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Unit Produksi Website SMK Telkom Jakarta",
+      title: "SMK Telkom Jakarta Production Unit Website",
       href: "https://smktelkom-jkt.sch.id/",
       dates: "2022",
       active: false,
       description:
-        "Pengembangan dan peningkatan sistem administrasi unit produksi dengan Laravel Livewire.",
+        "Development and enhancement of production unit administration system using Laravel Livewire.",
       technologies: [
         "Laravel",
         "PHP",
@@ -200,7 +202,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/default.png",
+      image: "/up.png",
       video: "",
     },
     {
@@ -209,7 +211,7 @@ export const DATA = {
       dates: "2022",
       active: false,
       description:
-        "Pengembangan dan peningkatan sistem administrasi sekolah dengan CodeIgniter",
+        "Development and enhancement of school administration system using CodeIgniter",
       technologies: [
         "CodeIgniter",
         "PHP",
@@ -226,11 +228,11 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Website Profil SLBN 11 Jakarta Selatan",
+      title: "SLBN 11 Jakarta Selatan Profile Website",
       href: "https://slbn11jkt.sch.id/",
       dates: "2023",
       active: false,
-      description: "Website profil sekolah dibangun menggunakan WordPress.",
+      description: "School profile website built using WordPress.",
       technologies: [
         "WordPress",
         "PHP",
@@ -248,12 +250,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Aplikasi Antisipasi Tsunami",
+      title: "Tsunami Anticipation Application",
       href: "/aplikasi-antisipasi-tsunami",
       dates: "2023",
       active: false,
       description:
-        "Menentukan rute evakuasi tercepat di area rawan tsunami menggunakan algoritma Dijkstra, Python, HTML, dan Folium.",
+        "Determines fastest evacuation routes in tsunami-prone areas using Dijkstra algorithm, Python, HTML, and Folium.",
       technologies: [
         "Python",
         "Dijkstra Algorithm",
@@ -264,12 +266,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Company Profile Kedai Es Krim",
+      title: "Ice Cream Shop Company Profile",
       href: "/company-profile-kedai-es-krim",
       dates: "2024",
       active: true,
       description:
-        "Website company profile dan blog kedai es krim lokal menggunakan Java Spring Boot, Tailwind CSS, dan PostgreSQL dengan desain modern dan responsif.",
+        "Local ice cream shop company profile and blog website built with Java Spring Boot, Tailwind CSS, and PostgreSQL featuring modern and responsive design.",
       technologies: [
         "Java",
         "Spring Boot",
@@ -280,12 +282,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Lingkar Hijau Marketplace Barang Daur Ulang",
+      title: "Lingkar Hijau Recycled Goods Marketplace",
       href: "/lingkar-hijau-marketplace",
       dates: "2024",
       active: true,
       description:
-        "Platform jual beli dan edukasi barang daur ulang (prototype figma).",
+        "Buy, sell, and educational platform for recycled goods (Figma prototype).",
       technologies: [
         "Figma",
       ],
@@ -293,12 +295,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "FishCo - Deteksi Penyakit Ikan Hias & Manajemen Akuarium",
+      title: "FishCo - Fish Disease Detection & Aquarium Management",
       href: "https://fishco.miauwlan.com/",
       dates: "2025",
       active: true,
       description:
-        "Aplikasi Android dengan fitur deteksi penyakit ikan menggunakan Teachable Machine dan backend Laravel API (sedang dikembangkan).",
+        "Android app with fish disease detection feature using Teachable Machine and Laravel API backend (in development).",
       technologies: [
         "Android",
         "Teachable Machine",
@@ -316,53 +318,12 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Marketplace Rajulang",
-      href: "https://mirfan777.github.io/rajulang/",
-      dates: "2025",
-      active: true,
-      description: "Marketplace tukar poin pakaian bekas berbasis Svelte.",
-      technologies: [
-        "Svelte",
-        "JavaScript",
-        "CSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://mirfan777.github.io/rajulang/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/marketplace-rajulang.png",
-      video: "",
-    },
-    {
-      title: "Hening - Aplikasi Edukasi Baca Bibir untuk Tuli",
-      href: "https://www.figma.com/proto/ArDjCzG3ElTVqAiBbxWAU8/Hening?node-id=171-235&p=f&t=6VW5JyY1DGuHBsru-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=171%3A235&show-proto-sidebar=1",
-      dates: "2025",
-      active: true,
-      description:
-        "Aplikasi edukasi baca bibir dengan materi video dan latihan berbasis AI dan video processing (prototype).",
-      technologies: [
-        "Figma"
-      ],
-      links: [
-        {
-          type: "prototype",
-          href: "https://www.figma.com/proto/ArDjCzG3ElTVqAiBbxWAU8/Hening?node-id=213-494&t=YPfBscR4aNv1LGfv-1",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/hening-edukasi-baca-bibir.png",
-      video: "",
-    },
-    {
-      title: "AR Logic Game – Boardgame Edukasi Gerbang Logika",
+      title: "AR Logic Game – Educational Logic Gate Boardgame",
       href: "/ar-logic-game",
       dates: "2025",
       active: true,
       description:
-        "Game edukasi berbasis AR menggunakan Unity dan AR Foundation yang mendeteksi kartu logika dan menampilkan output.",
+        "AR-based educational game using Unity and AR Foundation that detects logic cards and displays outputs.",
       technologies: [
         "Unity",
         "AR Foundation",
@@ -373,64 +334,103 @@ export const DATA = {
       video: "/AR_Logic_Cards.mp4",
     },
     {
-      title: "Si Kafa - Sistem POS dengan Integrasi API Shopee & Tokopedia",
-      href: "/si-kafa-pos",
+      title: "Mauna - Sign Language Learning  App",
+      href: "https://mauna.takumifahri.my.id/",
       dates: "2025",
       active: true,
       description:
-        "Sistem POS berbasis Laravel Filament dengan integrasi API pihak ketiga.",
+        "Sign language learning app with Gamification and AI-powered hand gesture recognition ",
       technologies: [
-        "Laravel",
-        "Filament",
-        "API Integration",
-        "PHP",
+        "Next JS",
+        "Python",
+        "Fastapi",
       ],
-      image: "/si-kafa-pos.png",
+      image: "/mauna.png",
       video: "",
     },
     {
-      title: "Temutukar - Website Geospasial Tukar Pakaian & Donasi",
-      href: "/temutukar-geospasial",
+      title: "Kodehana Profile Company",
+      href: "https://kodehana.com/",
       dates: "2025",
       active: true,
       description:
-        "Platform donasi dan tukar pakaian dengan peta interaktif menggunakan JavaScript, WFS GeoJSON, PostGIS, dan GeoServer.",
+        "Company profile website for Kodehana built with Laravel and Tailwind CSS, featuring a modern and responsive design.",
       technologies: [
-        "JavaScript",
-        "WFS GeoJSON",
-        "PostGIS",
-        "GeoServer",
+        "Next",
+        "Tailwind CSS",
       ],
-      links: [
-        {
-          type: "Website",
-          href: "/temutukar-geospasial.png",
-          icon: <Icons.globe className="size-3" />,
-        },
+      image: "/pro_kodehana.png",
+      video: "",
+    },
+    {
+      title: "MasAkIn - AI-Powered Recipe & Ingredient Scanner ",
+      href: "",
+      dates: "2026",
+      active: true,
+      description:
+        "A smart web application that detects kitchen ingredients using AI object recognition and automatically generates customized cooking recipes based on available food supplies.",
+      technologies: [
+        "Flutter",
+        "Python",
+        "Yolov26",
+        "Tensorflow Lite",
+        "Gemini Api",
       ],
-      image: "/temutukar-geospasial.png",
+      image: "/masakin.png",
+      video: "",
+    },
+    {
+      title: "Paspos - POS & E-commerce App with barcode scanner",
+      href: "",
+      dates: "2026",
+      active: true,
+      description:
+        "Flutter mobile application for POS and e-commerce with barcode scanner, inventory management & e-commerce integration.",
+      technologies: [
+        "Flutter",
+        "Python",,
+        "Laravel",
+      ],
+      image: "/paspos.png",
       video: "",
     },
     // {
-    //   title: "Booking Pesawat",
-    //   href: "/booking-pesawat.png",
-    //   dates: "2021",
-    //   active: false,
-    //   description: "Sistem booking pesawat menggunakan Laravel dan Bootstrap.",
+    //   title: "Si Kafa - POS System with Shopee & Tokopedia API Integration",
+    //   href: "/si-kafa-pos",
+    //   dates: "2025",
+    //   active: true,
+    //   description:
+    //     "Laravel Filament-based POS system with third-party API integration.",
     //   technologies: [
     //     "Laravel",
-    //     "Bootstrap",
+    //     "Filament",
+    //     "API Integration",
     //     "PHP",
-    //     "MySQL",
+    //   ],
+    //   image: "/si-kafa-pos.png",
+    //   video: "",
+    // },
+    // {
+    //   title: "Temutukar - Geospatial Clothing Exchange & Donation",
+    //   href: "/temutukar-geospasial",
+    //   dates: "2025",
+    //   active: true,
+    //   description:
+    //     "Clothing exchange and donation platform with interactive maps using JavaScript, WFS GeoJSON, PostGIS, and GeoServer.",
+    //   technologies: [
+    //     "JavaScript",
+    //     "WFS GeoJSON",
+    //     "PostGIS",
+    //     "GeoServer",
     //   ],
     //   links: [
     //     {
     //       type: "Website",
-    //       href: "/booking-pesawat",
+    //       href: "/temutukar-geospasial.png",
     //       icon: <Icons.globe className="size-3" />,
     //     },
     //   ],
-    //   image: "/booking-pesawat.png",
+    //   image: "/temutukar-geospasial.png",
     //   video: "",
     // },
   ],
@@ -439,18 +439,13 @@ export const DATA = {
   trainings: [
     {
       name: "Microservices Foundations Professional Certificate",
-      provider: "Linkedin Leaning & Kong",
-      link_certificate: "https://www.linkedin.com/learning/certificates/fcae3108c3c6677f2b616fafbd549d45d60e226af94512e101371cfbbeee514a?trk=share_certificate" 
-    },
-    {
-      name: "Career Essentials in GitHub Professional Certificate",
-      provider: "Linkedin Leaning & GitHub",
-      link_certificate: "https://www.linkedin.com/learning/certificates/fcae3108c3c6677f2b616fafbd549d45d60e226af94512e101371cfbbeee514a?trk=share_certificate" 
+      provider: "LinkedIn Learning & Kong",
+      link_certificate: "https://www.linkedin.com/learning/certificates/8253ff835b329f9a22a94ae5d1a44968ce65c6c8b4f1746dcb094803a673fb8d?u=145014580" 
     },
     {
       name: "Docker Foundations Professional Certificate",
-      provider: "Linkedin Leaning & Docker",
-      link_certificate: "https://www.linkedin.com/learning/certificates/fcae3108c3c6677f2b616fafbd549d45d60e226af94512e101371cfbbeee514a?trk=share_certificate" 
+      provider: "LinkedIn Learning & Docker",
+      link_certificate: "linkedin.com/learning/certificates/b3967ae1e0c9afdff8ba6f1bad1661195985513c22412e3786f03fff021d4c62?trk=share_certificate" 
     },
     {
       name: "Design User Experiences with Figma",
@@ -467,43 +462,90 @@ export const DATA = {
   // Menambahkan hackathons yang tidak ada di data pertama tetapi ada di data kedua
   hackathons : [
   {
+    title: "I/O FESTIVAL 2026",
+    dates: "2026",
+    location: "Universitas Tarumanagara",
+    description: "participate in the national web development competition",
+    image: "/untar.png",
+  },
+  {
+    title: "Business Plan Competition",
+    dates: "2026",
+    location: "Universitas Muhammadiyah Purwokerto",
+    description: "Finalist - design giziku mobile app for healthy lifestyle and balanced nutrition.",
+    image: "/ump.png",
+    links: [],
+  },
+  {
+    title: "National Website Development ITASE 6.0",
+    dates: "2025",
+    location: "Telkom University Purwokerto",
+    description: "1st Place - Developed mauna website with AI-powered sign language learning features, winning the national web development competition.",
+    image: "/telkompurwokerto.png",
+    links: [],
+  },
+  {
+    title: "National Business Model Canvas MaFIA Industry Insight",
+    dates: "2025",
+    location: "Brawijaya University",
+    description: "1st Place - Created innovative business model canvas for aqmon aquaponics system, winning the national business model competition.",
+    image: "/ub.png",
+    links: [],
+  },
+  {
+    title: "Garuda Hacks 6.0",
+    dates: "2025",
+    location: "Multimedia Nusantara University (UMN)",
+    description: "Participated in the national hackathon, contributing to the development of innovative solutions.",
+    image: "/garuda.png",
+    links: [],
+  },
+  {
+    title: "ITfest IPB University",
+    dates: "2025",
+    location: "IPB University",
+    description: "Participated in the national software development competition , developing nemo aquarium management system with AI-powered fish disease detection.",
+    image: "/ipb.png",
+    links: [],
+  },
+  {
     title: "Stitch Loop: Where Every Thread Tells a New Story",
-    dates: "Maret 2025",
+    dates: "2025",
     location: "Universitas Atma Jaya Yogyakarta",
-    description: "Membuat Rajulang, sebuah platform web untuk pertukaran pakaian bekas berbasis poin.",
-    image: "/uajy.png", // ganti dengan link gambar jika ada
+    description: "Created Rajulang, a web platform for point-based secondhand clothing exchange.",
+    image: "/uajy.png",
     links: [],
   },
   {
     title: "Recursion 1.0",
-    dates: "Maret 2025",
+    dates: "2025",
     location: "Universitas Hasanuddin",
-    description: "Merancang Hening, aplikasi edukasi baca bibir untuk penyandang tuli melalui pendekatan UI/UX.",
-    image: "uh.png", // ganti dengan link gambar jika ada
+    description: "Designed Hening, a lip reading educational app for deaf individuals with UI/UX approach.",
+    image: "uh.png",
     links: [],
   },
   {
     title: "Invention Udayana",
-    dates: "September 2024",
+    dates: "2024",
     location: "Universitas Udayana",
-    description: "Mendesain Lingkar Hijau, marketplace edukasi dan daur ulang berbasis komunitas.",
-    image: "udayana.png", // ganti dengan link gambar jika ada
+    description: "Designed Lingkar Hijau, a community-based education and recycling marketplace.",
+    image: "udayana.png",
     links: [],
   },
   {
-    title: "FIT COMPETITION 2024",
-    dates: "31 Juli 2024",
+    title: "Web Development FIT Competition",
+    dates: "2024",
     location: "Universitas Kristen Satya Wacana",
-    description: "Membuat website pelaporan fasilitas publik untuk mendukung smart city di terminal bus.",
-    image: "uksw.png", // ganti dengan link gambar jika ada
+    description: "1st Runner Up - Achieved 2nd place in the national web development competition.",
+    image: "/uksw.png",
     links: [],
   },
   {
     title: "Garuda Hacks 5.0",
-    dates: "11 - 13 Juli 2024",
+    dates: "2024",
     location: "Multimedia Nusantara University (UMN)",
-    description: "Membangun website edukasi yang mengangkat tema pemberdayaan, inovasi, dan kolaborasi.",
-    image: "garuda.png", // ganti dengan link gambar jika ada
+    description: "Built an educational website featuring themes of empowerment, innovation, and collaboration.",
+    image: "garuda.png",
     links: [],
   }
 ]}

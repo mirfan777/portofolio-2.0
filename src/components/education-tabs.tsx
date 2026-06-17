@@ -72,6 +72,15 @@ export function EducationTabs({ trainings, education, delay = 0 }: EducationTabs
                     {edu.description}
                   </div>
                 )}
+                {edu.list && edu.list.length > 0 && (
+                  <ul className="text-sm text-muted-foreground space-y-1">
+                    {edu.list.map((item: string, index: number) => (
+                      <li key={index} className="list-disc list-inside">
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                )}
                 {edu.badges && edu.badges.length > 0 && (
                   <div className="flex flex-wrap gap-1">
                     {edu.badges.map((badge: string) => (

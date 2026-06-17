@@ -42,7 +42,7 @@ export default function Page() {
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-xl font-bold">Tentang Saya</h2>
+          <h2 className="text-xl font-bold">About Me</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
@@ -111,13 +111,13 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Project Saya
+                  My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Berikut adalah proyek-proyek yang telah saya kembangkan
+                  Here are the projects I've developed
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                 Saya telah mengerjakan berbagai proyek—dari situs web sederhana hingga platform layanan digital berskala menengah. Beberapa proyek favorit saya mencerminkan ketertarikan saya dalam menciptakan solusi yang praktis dan berdampak sosial.
+                 I have worked on various projects—from simple websites to mid-scale digital service platforms. Some of my favorite projects reflect my passion for creating practical and socially impactful solutions.
                 </p>
               </div>
             </div>
@@ -153,10 +153,10 @@ export default function Page() {
                   Competition
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Saya Telah Mengikuti Lomba Sebanyak {DATA.hackathons.length} kali
+                  I Have Participated in {DATA.hackathons.length} Competitions
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Selama masa kuliah, saya aktif mengikuti berbagai kompetisi dan hackathon. Dari kegiatan ini, saya belajar bekerja cepat dalam tim lintas disiplin untuk menghasilkan solusi nyata dalam waktu terbatas.
+                  During my studies, I actively participated in various competitions and hackathons. Through these activities, I learned to work quickly in cross-disciplinary teams to deliver real solutions within tight timeframes.
                 </p>
               </div>
             </div>
@@ -187,10 +187,10 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Kontak
+                Contact
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-               Ingin terhubung atau berdiskusi?
+               Want to connect or discuss?
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 {" "}
@@ -198,9 +198,9 @@ export default function Page() {
                   href={DATA.contact.social.Whatsapp.url}
                   className="text-blue-500 hover:underline"
                 >
-                  Kirimkan pesan langsung melalui WhatsApp
+                  Send me a direct message via WhatsApp
                 </Link>{" "}
-               dan saya akan merespons secepatnya.
+               and I will respond as soon as possible.
               </p>
             </div>
           </BlurFade>
